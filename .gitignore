@@ -1,0 +1,11 @@
+# Ignore environmental variables and virtual env cache
+.venv
+.env
+
+# Ignore everything in src/ except test.txt
+src/*
+!src/test.txt
+
+instagram_session.json
+
+out.txt
